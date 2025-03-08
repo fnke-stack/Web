@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Fashion Brand - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Welcome to Our Fast Fashion Brand</h1>
+            <p>Discover the latest trends and styles.</p>
+            <a href="shop.html" class="cta">Shop Now</a>
+        </section>
+        <section class="features">
+            <div class="feature">
+                <h2>Trendy Styles</h2>
+                <p>Stay ahead of the fashion curve with our latest collections.</p>
+            </div>
+            <div class="feature">
+                <h2>Eco-Friendly</h2>
+                <p>Our clothes are made with sustainable materials.</p>
+            </div>
+            <div class="feature">
+                <h2>Fast Shipping</h2>
+                <p>Get your orders delivered quickly and efficiently.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Fast Fashion Brand. All rights reserved.</p>
+    </footer>
+
+    <!-- Game Modal -->
+    <div id="gameModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Find Your Perfect Fit</h2>
+            <form id="sizeGameForm">
+                <label for="size">Select Your Size:</label>
+                <select id="size" name="size">
+                    <option value="us">US Size</option>
+                    <option value="uk">UK Size</option>
+                </select>
+
+                <label for="skinTone">Select Your Skin Tone:</label>
+                <select id="skinTone" name="skinTone">
+                    <option value="light">Light</option>
+                    <option value="medium">Medium</option>
+                    <option value="dark">Dark</option>
+                </select>
+
+                <label for="occasion">Select the Occasion:</label>
+                <select id="occasion" name="occasion">
+                    <option value="casual">Casual</option>
+                    <option value="formal">Formal</option>
+                    <option value="party">Party</option>
+                </select>
+
+                <button type="submit">Get Recommendations</button>
+            </form>
+            <div id="gameResult"></div>
+        </div>
+    </div>
+</body>
+</html>
